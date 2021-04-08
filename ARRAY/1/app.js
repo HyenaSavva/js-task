@@ -9,7 +9,9 @@ while (i < a.length){
     console.log(a[i])
     i++
 }
+
 i = 0
+
 do {
     console.log(a[i])
     i++
