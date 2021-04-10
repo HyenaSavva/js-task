@@ -71,10 +71,24 @@ const calculateMaxAndMin = studentsList => {                       // afisarea p
 
 }
 
-const sortStudents = (studentsList) => {
+const sortStudents = studentsList => {
     const obj = Object.entries(studentsList).sort((a,b) => b[1].mark - a[1].mark)
     console.log(obj)
-    console.log(Object.fromEntries(obj));
+
+}
+
+const sortStudentAvgMark = ( allMarks, studentsList ) => {
+
+    const mediumMark = allMarks.reduce((acc, mark ) => acc + mark ) / allMarks.length
+
+    studentsList.forEach((student) => {
+
+        if (student.mark > mediumMark) {
+            console.log(`Student name is: ${student.name} with avg mark = ${student.mark}`)
+
+            // return { name: student.name, mark: student.mark }
+        }
+    })
 }
 
 const studentsList = personWithAvgMarks(person)            // apelam functia si o pastram in studentsList
@@ -101,4 +115,10 @@ console.log(`
     `)
 
 sortStudents(studentsList)
+
+const nameMark = sortStudentAvgMark(studentsMarks,studentsList)
+
+// console.log( nameMark.name, nameMark.mark )
+
+
 
