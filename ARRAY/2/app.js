@@ -1,26 +1,34 @@
-const person =[
+const person = [
     {
         name: 'Alex',
         marks: [0, 1, 2, 3, 4]
     },
     {
         name: 'Dima',
-        marks: [9, 9, 8, 6, 7]
+        marks: [9, 9, 8, 6, 2]
     },
     {
         name: 'Jora',
-        marks: [2, 2, 7, 2, 6]
+        marks: [2, 2, 7, 10, 6]
     },
     {
         name: 'Vasea',
         marks: [8, 9, 5, 8, 5]
     }
 ]
-const avgMarks = student => {
+const avgMarks = student => {                               // calculeaza media la 1 student din marks[]
         return student.marks.reduce((acc, mark) => acc + mark) / student.marks.length
 }
 
-const personWithAvgMarks = person => {
+const allMarks = students => {
+    const list = []
+    students.forEach((student) => {
+        list.push(avgMarks(student))
+    })
+    return list
+}
+
+const personWithAvgMarks = person => {                      // creaza un nou array de obiecte
     const students = []
 
     person.forEach((student) => {
@@ -29,31 +37,68 @@ const personWithAvgMarks = person => {
     return students
 }
 
-const showPerson = person => {
-    person.forEach((student , i) => {
+const showPerson = person => {                            // afisarea persoanelor
+    person.forEach((student) => {
         console.log(`Name: ${student.name} ` + `
         avg marks ${student.mark}`)
     })
 }
 
-// const lessFive = person => {
-//     person.forEach((student , i)=>{
-//         if (2 < 5){
-//             console.log(`${student.name} `)
-//         }
-//     })
-// }
-//
-// const maxAndMin = person => {
-//     // getAvgMarks(person).sort((a ,b) => { a.marks - b.marks})
-// }
-//
+const lessFive = person => {                              // afisarea persoanelor cu nota mai jos de 5
+    person.forEach((student) => {
+        if (student.mark < 6){
+            console.log(`Name: ${student.name} `)
+        }
+    })
+}
+
+const calculateMaxAndMin = studentsList => {                       // afisarea persoanelor cu nota minima si maxima
+    let min = studentsList[0].mark , max = studentsList[0].mark
+    let nameMin = studentsList[0].name , nameMax = studentsList[0].name
+
+    for (const student of studentsList){
+        if (min > student.mark){
+            min = student.mark
+            nameMin = student.name
+        }
+        if (max < student.mark){
+            max = student.mark
+            nameMax = student.name
+        }
+    }
+
+    return { nameMin , min , nameMax ,max }
+
+}
+
+const sortStudents = (studentsList) => {
+    const obj = Object.entries(studentsList).sort((a,b) => b[1].mark - a[1].mark)
+    console.log(obj)
+    console.log(Object.fromEntries(obj));
+}
+
+const studentsList = personWithAvgMarks(person)            // apelam functia si o pastram in studentsList
+
+const studentsMarks = allMarks(person)                    // apelam functia si pastram lista de note in studentsMarks
+
+
+
 console.log(`Students name's with avg marks:`)
-showPerson(personWithAvgMarks(person))
-//
+showPerson(studentsList)
+
 console.log(`Students with mark lesser then 5:`)
-// lessFive(personWithAvgMarks(person))
-//
-// console.log(`Students with max mark and minim mark :`)
-// maxAndMin(person)
-//
+lessFive(studentsList)
+
+console.log(`Students with max mark and minim mark :`)
+
+const maxMin = calculateMaxAndMin(studentsList)
+
+console.log(`
+    Student with min mark ${maxMin.nameMin}
+    Student with min mark ${maxMin.min}
+    Student with max mark ${maxMin.nameMax}
+    Student with max mark ${maxMin.max}
+    `)
+
+sortStudents(studentsList)
+
