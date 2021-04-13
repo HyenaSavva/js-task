@@ -80,15 +80,16 @@ const sortStudents = studentsList => {
 const sortStudentAvgMark = ( allMarks, studentsList ) => {
 
     const mediumMark = allMarks.reduce((acc, mark ) => acc + mark ) / allMarks.length
-
+    const list = []
     studentsList.forEach((student) => {
 
         if (student.mark > mediumMark) {
             console.log(`Student name is: ${student.name} with avg mark = ${student.mark}`)
 
-            // return { name: student.name, mark: student.mark }
+            list.push( {name: student.name, mark: student.mark} )
         }
     })
+    return list
 }
 
 const studentsList = personWithAvgMarks(person)            // apelam functia si o pastram in studentsList
@@ -118,7 +119,7 @@ sortStudents(studentsList)
 
 const nameMark = sortStudentAvgMark(studentsMarks,studentsList)
 
-// console.log( nameMark.name, nameMark.mark )
+console.log( nameMark[0].name, nameMark[0].mark )
 
 
 
