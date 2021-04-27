@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     document.body.style.backgroundColor = 'darkgray'
-
 })
 
 const button = document.getElementsByClassName('button')
@@ -18,24 +17,22 @@ for (const item in options) {
 }
 
 function validationInput(input) {
-    if (input === '0') {
-        return true
-    } else return input === '9'
+    return !!(input === '0' || input === '9')
 }
 
 button[0].addEventListener('click', () => {
     input.stepDown()
-    if (validationInput(input.value)) {
-        button[0].setAttribute('disabled', '')
-    } else button[1].removeAttribute('disabled')
-
+    buttonStateController(0, 1)
 })
 
 button[1].addEventListener('click', () => {
     input.stepUp()
-    if (validationInput(input.value)) {
-        button[1].setAttribute('disabled', '')
-    } else button[0].removeAttribute('disabled')
-
+    buttonStateController(1, 0)
 })
 
+function buttonStateController(a, b) {
+    if (validationInput(input.value)) {
+        return button[a].setAttribute('disabled', '')
+    }
+    return button[b].removeAttribute('disabled')
+}
