@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4836a3d-4101-4b53-a920-c6f2da50761c" name="Default Changelist" comment="resolve task">
+    <list default="true" id="a4836a3d-4101-4b53-a920-c6f2da50761c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ARRAY/10/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ARRAY/9/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/1/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/10/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/2/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/3/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/4/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/5/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/6/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/7/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/8/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBJ/9/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ARRAY/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ARRAY/1/index.html" afterDir="false" />
     </list>
     <list id="62640874-625b-41b7-b64c-8c0a121ee214" name="resolve task" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +24,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -19,7 +54,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="BASIC" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,16 +67,25 @@
     </option>
   </component>
   <component name="ProjectId" id="1qqwE2oPBAIUXpnt1C6WULMDhnb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\a\work\js-tasks\ARRAY\1" />
+      <recent name="D:\a\work\js-tasks\BASIC\1" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,6 +96,24 @@
       <option name="presentableId" value="Default" />
       <updated>1617820312801</updated>
       <workItem from="1617820313886" duration="862000" />
+      <workItem from="1617866924713" duration="13007000" />
+      <workItem from="1617884015059" duration="6581000" />
+      <workItem from="1617956826558" duration="22821000" />
+      <workItem from="1618042934579" duration="12621000" />
+      <workItem from="1618221553189" duration="8386000" />
+      <workItem from="1618241647460" duration="5051000" />
+      <workItem from="1618310934973" duration="2198000" />
+      <workItem from="1618477588477" duration="6178000" />
+      <workItem from="1618562841447" duration="3923000" />
+      <workItem from="1618588743011" duration="618000" />
+      <workItem from="1618674965483" duration="657000" />
+      <workItem from="1618688134835" duration="998000" />
+      <workItem from="1618731611656" duration="7457000" />
+      <workItem from="1618752441891" duration="2039000" />
+      <workItem from="1618984207619" duration="759000" />
+      <workItem from="1618986936090" duration="3358000" />
+      <workItem from="1619008744618" duration="852000" />
+      <workItem from="1619010482798" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="resolve task">
       <created>1617821708696</created>
@@ -67,7 +129,196 @@
       <option name="project" value="LOCAL" />
       <updated>1617821743925</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="resolve task">
+      <created>1617822733341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617822733341</updated>
+    </task>
+    <task id="LOCAL-00004" summary="resolve task">
+      <created>1617822781884</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617822781884</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task 2">
+      <created>1617867646406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617867646406</updated>
+    </task>
+    <task id="LOCAL-00006" summary="used sort() , task 3">
+      <created>1617871061481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617871061481</updated>
+    </task>
+    <task id="LOCAL-00007" summary="used slice() and toUpperCase() , task 4">
+      <created>1617872738022</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617872738022</updated>
+    </task>
+    <task id="LOCAL-00008" summary="used split() for transform in array , isNaN() for verify number , parseInt() to parse int">
+      <created>1617876352377</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617876352377</updated>
+    </task>
+    <task id="LOCAL-00009" summary="can be used num = Number(prompt(''))">
+      <created>1617877108534</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617877108534</updated>
+    </task>
+    <task id="LOCAL-00010" summary="used operators ! , &amp;&amp; , ||">
+      <created>1617877642147</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617877642147</updated>
+    </task>
+    <task id="LOCAL-00011" summary="used operators ! , &amp;&amp; , ||">
+      <created>1617878284063</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617878284063</updated>
+    </task>
+    <task id="LOCAL-00012" summary="used operators ! , &amp;&amp; , ||">
+      <created>1617878662164</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617878662164</updated>
+    </task>
+    <task id="LOCAL-00013" summary="task 10">
+      <created>1617879214679</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617879214679</updated>
+    </task>
+    <task id="LOCAL-00014" summary="first commit">
+      <created>1617884739602</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617884739602</updated>
+    </task>
+    <task id="LOCAL-00015" summary="used for in , for of , .forEach , .map">
+      <created>1617887814229</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1617887814229</updated>
+    </task>
+    <task id="LOCAL-00016" summary="used for in , for of , .forEach , .map">
+      <created>1617887857509</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617887857509</updated>
+    </task>
+    <task id="LOCAL-00017" summary="used for in , for of , .forEach , .map">
+      <created>1617887908871</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617887908871</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add array of obj , try to use reduce() , nothing works">
+      <created>1617890706477</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1617890706477</updated>
+    </task>
+    <task id="LOCAL-00019" summary="was added functions: avgMarks, personWithAvgMarks, showPerson">
+      <created>1617967468159</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1617967468159</updated>
+    </task>
+    <task id="LOCAL-00020" summary="was added allMarks() lessFive() calculateMaxAndMin() sortStudents()">
+      <created>1618054176857</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1618054176857</updated>
+    </task>
+    <task id="LOCAL-00021" summary="was added allMarks() lessFive() calculateMaxAndMin() sortStudents()">
+      <created>1618060795933</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1618060795933</updated>
+    </task>
+    <task id="LOCAL-00022" summary="was added functions addElement() middleValue() removeItem() addItemAtStart()">
+      <created>1618226629602</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1618226629602</updated>
+    </task>
+    <task id="LOCAL-00023" summary="was added 2 new functions sumInputNumbers() , sumNumbers()">
+      <created>1618243017816</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1618243017816</updated>
+    </task>
+    <task id="LOCAL-00024" summary="used splice()">
+      <created>1618245144564</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1618245144564</updated>
+    </task>
+    <task id="LOCAL-00025" summary="some  fix">
+      <created>1618312628415</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1618312628415</updated>
+    </task>
+    <task id="LOCAL-00026" summary="function in other function">
+      <created>1618312664092</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1618312664092</updated>
+    </task>
+    <task id="LOCAL-00027" summary="was used slice() method">
+      <created>1618312691153</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1618312691153</updated>
+    </task>
+    <task id="LOCAL-00028" summary="was added scripts">
+      <created>1618312764894</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1618312764894</updated>
+    </task>
+    <task id="LOCAL-00029" summary="was used method findIndex()">
+      <created>1618478547254</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1618478547254</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,26 +329,35 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="dev" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="resolve task" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve task" />
+    <MESSAGE value="task 2" />
+    <MESSAGE value="used sort() , task 3" />
+    <MESSAGE value="used slice() and toUpperCase() , task 4" />
+    <MESSAGE value="used split() for transform in array , isNaN() for verify number , parseInt() to parse int" />
+    <MESSAGE value="can be used num = Number(prompt(''))" />
+    <MESSAGE value="used operators ! , &amp;&amp; , ||" />
+    <MESSAGE value="task 10" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="used for in , for of , .forEach , .map" />
+    <MESSAGE value="add array of obj , try to use reduce() , nothing works" />
+    <MESSAGE value="was added functions: avgMarks, personWithAvgMarks, showPerson" />
+    <MESSAGE value="was added allMarks() lessFive() calculateMaxAndMin() sortStudents()" />
+    <MESSAGE value="was added functions addElement() middleValue() removeItem() addItemAtStart()" />
+    <MESSAGE value="was added 2 new functions sumInputNumbers() , sumNumbers()" />
+    <MESSAGE value="used splice()" />
+    <MESSAGE value="some  fix" />
+    <MESSAGE value="function in other function" />
+    <MESSAGE value="was used slice() method" />
+    <MESSAGE value="was added scripts" />
+    <MESSAGE value="was used method findIndex()" />
+    <option name="LAST_COMMIT_MESSAGE" value="was used method findIndex()" />
   </component>
 </project>
