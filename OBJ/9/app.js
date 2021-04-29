@@ -9,13 +9,13 @@ const weekDays = {
 }
 
 const reverse = (weekDays) => {
-    Object.fromEntries(
+    return Object.fromEntries(
         Object
             .entries(weekDays)
             .map(([key,value]) => [value, key])
     )
 }
 
-reverse(weekDays)
+console.log(reverse(weekDays));
 
 console.log(weekDays)
