@@ -17,7 +17,7 @@ for (const item in options) {
 }
 
 function validationInput(input) {
-    return !!(input === '0' || input === '9')
+    return (input === '0' || input === '9')
 }
 
 button[0].addEventListener('click', () => {
