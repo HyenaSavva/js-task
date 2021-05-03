@@ -1,0 +1,11 @@
+#field {
+    height: 600px;
+    width: 400px;
+    border-style: solid;
+}
+
+.ball {
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+}
