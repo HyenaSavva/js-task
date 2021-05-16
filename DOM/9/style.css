@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fixed {
+    font-size: 0;
+}
+
+.box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: darkblue;
+}
+
+.player {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+}
+
+#player2 {
+    background-color: aqua;
+}

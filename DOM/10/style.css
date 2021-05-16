@@ -1,0 +1,15 @@
+.head {
+    border: solid 1px black;
+    display: flex;
+    height: 40px;
+    width : 80px;
+}
+
+.parent {
+    width : 40px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
