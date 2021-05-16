@@ -25,4 +25,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const date = document.getElementById(data)
         event.target.appendChild(date)
     })
+
+    parentLeft.addEventListener('dragover', (event) => {
+        event.preventDefault()
+    })
+
+    parentLeft.addEventListener('drop',(event) => {
+        let data = event.dataTransfer.getData("application")
+        const date = document.getElementById(data)
+        event.target.appendChild(date)
+    })
 })
