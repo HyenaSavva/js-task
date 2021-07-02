@@ -1,0 +1,12 @@
+.table {
+    border-collapse: collapse;
+}
+
+.tr, th {
+    border: 1px solid black ;
+    width: 80px;
+}
+body {
+    display: table-row;
+}
+
